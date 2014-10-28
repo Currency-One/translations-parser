@@ -6,7 +6,9 @@
   "dependencies": {
     "jquery": "~v1.11.1",
     "angular": "1.3.x",
-    "bootstrap": "3.2.x"
+    "bootstrap": "3.2.x",
+    "FileSaver.js": "https://github.com/eligrey/FileSaver.js.git#765f1d90ae5ec678c28619844293352dfa72092e",
+    "Blob.js": "https://github.com/eligrey/Blob.js.git#2bca2cc205d5f23e10e1818ee9f63dfcd56096b5"
   },
   "ignore": [
     "node_modules",

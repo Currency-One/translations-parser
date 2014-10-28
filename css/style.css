@@ -29,6 +29,21 @@ body {
   margin: 10px 0;
 }
 
+#content .single-term { 
+  padding: 15px;
+  background: rgb(198, 230, 255);
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+#content .single-term .form-group {
+  margin-bottom: 0;
+}
+
+#content .single-term .form-group label {
+  text-align: left;
+}
+
 #content .term-group:first-letter {
   text-transform: uppercase;
 }

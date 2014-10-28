@@ -11,7 +11,6 @@ angular.module('languageParser').directive('fileUpload', function() {
       };
 
       var fileField = elm.find('[type="file"]').on('change', function(e) {
-        console.log(e.target.files[0]);
         reader.readAsText(e.target.files[0]);
       });
     }
